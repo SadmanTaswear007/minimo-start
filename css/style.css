@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #626262;
+}
+header{
+	padding: 40px 0;
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	
+}
+.logo{
+
+	width: 11%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 80%;
+	float: right;
+}
+.menu ul{
+	margin: 0;
+	float: right;
+	
+}
+.menu ul li{
+	float: left;
+	list-style: none;}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 60px;
+	padding: 3px 0;
+	color: #626262;
+	display: inline-block;
+	text-transform: uppercase;
+	transition: .33s;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+
+}
+
+.banner{
+
+}
+.b_img{
+	width: 100%;
+
+}
+.b_img img{
+	width: 100%;
+}
+
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup{
+text-align: center;
+}
+.container2{
+
+}
+.title{
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+.s_h1{
+
+	color: #333333;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 370px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 15px;
+}
+.s_form input: focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	 background: transparent;
+	 border: none;
+	 cursor: pointer;
+	 top: 15px;
+	 right: 0;
+}
+.s_form button: focus{
+	outline: 0;
+}
